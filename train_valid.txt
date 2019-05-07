@@ -1,0 +1,720 @@
+python3 SR.py -c -b 20 -vb 10 -e 100
+
+训练集16000张，验证集4000张
+
+最高psnr和ssim
+PSNR:28.286012076891925
+SSIM:0.9200645003099606
+
+最后一次数据：
+Loaded 800 train data.
+Epoch [100/100],Loss: 0.02396582,pLoss:0.02367617
+valid time is 05:07:03 
+Loaded 400 valid data.
+V_aver_loss:0.02356796479318291,V_aver_ploss:0.027056736890226602
+PSNR:28.28851431345349
+SSIM:0.9190400847154657
+Saved model at ./models
+Finish time is 2019-05-06 05:14:24.892753 
+All time is 16:24:49.612770
+
+其他的数据：
+start time is 2019-05-05 12:49:35.279983 
+Invoke train_valid_test with args Namespace(action='train_valid_test', batch_size=20, beta1=0.9, beta2=0.999, cuda=True, epoch=100, lr=0.0001, lrD=1e-05, margin=1.0, n_colors=3, nb_worker=4, randaug=False, upscale_factor=2, vbatch_size=10, weight_decay=1e-08)
+Loaded 800 train data.
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+Epoch [1/100],Loss: 0.04935676,pLoss:0.03437816
+valid time is 12:51:40 
+Loaded 400 valid data.
+V_aver_loss:0.03599921893328428,V_aver_ploss:0.039715141199994836
+PSNR:24.509813829782093
+SSIM:0.8988272637234583
+Loaded 800 train data.
+Epoch [2/100],Loss: 0.03523759,pLoss:0.03028767
+valid time is 13:01:07 
+Loaded 400 valid data.
+V_aver_loss:0.033352154712192716,V_aver_ploss:0.03711413926212117
+PSNR:25.31493254668323
+SSIM:0.9045668681603651
+Loaded 800 train data.
+Epoch [3/100],Loss: 0.03367534,pLoss:0.02046420
+valid time is 13:10:14 
+Loaded 400 valid data.
+V_aver_loss:0.0314037108188495,V_aver_ploss:0.035072819201741365
+PSNR:26.25384691296453
+SSIM:0.9059313577644577
+Loaded 800 train data.
+Epoch [4/100],Loss: 0.03177461,pLoss:0.03875015
+valid time is 13:19:42 
+Loaded 400 valid data.
+V_aver_loss:0.033475906651001426,V_aver_ploss:0.037027924472931774
+PSNR:25.654723522272565
+SSIM:0.9058369343676916
+Loaded 800 train data.
+Epoch [5/100],Loss: 0.03120117,pLoss:0.03482818
+valid time is 13:29:09 
+Loaded 400 valid data.
+V_aver_loss:0.029944653334096075,V_aver_ploss:0.03350184013834223
+PSNR:26.39537513640753
+SSIM:0.9085846112213393
+Loaded 800 train data.
+Epoch [6/100],Loss: 0.03040826,pLoss:0.03234845
+valid time is 13:38:33 
+Loaded 400 valid data.
+V_aver_loss:0.027675514069851487,V_aver_ploss:0.0312147401063703
+PSNR:27.094716684671017
+SSIM:0.9114412241860717
+Loaded 800 train data.
+Epoch [7/100],Loss: 0.02958182,pLoss:0.03754880
+valid time is 13:47:56 
+Loaded 400 valid data.
+V_aver_loss:0.02883003880036995,V_aver_ploss:0.03236839175689966
+PSNR:26.720925997492216
+SSIM:0.9110139690863825
+Loaded 800 train data.
+Epoch [8/100],Loss: 0.02963218,pLoss:0.03179308
+valid time is 13:57:28 
+Loaded 400 valid data.
+V_aver_loss:0.027001002283068374,V_aver_ploss:0.030545461282599717
+PSNR:27.272759587931038
+SSIM:0.914238610711364
+Loaded 800 train data.
+Epoch [9/100],Loss: 0.02888413,pLoss:0.02612220
+valid time is 14:06:49 
+Loaded 400 valid data.
+V_aver_loss:0.027218661356018855,V_aver_ploss:0.030748510387493298
+PSNR:27.418845751960543
+SSIM:0.9144733701899364
+Loaded 800 train data.
+Epoch [10/100],Loss: 0.02835696,pLoss:0.02508584
+valid time is 14:16:04 
+Loaded 400 valid data.
+V_aver_loss:0.025897255724994465,V_aver_ploss:0.029437163495458663
+PSNR:27.44248936079951
+SSIM:0.9150180269796242
+Loaded 800 train data.
+Epoch [11/100],Loss: 0.02778591,pLoss:0.02921818
+valid time is 14:25:25 
+Loaded 400 valid data.
+V_aver_loss:0.03170505192596465,V_aver_ploss:0.035243771295063196
+PSNR:26.095640690365354
+SSIM:0.9129956920677573
+Loaded 800 train data.
+Epoch [12/100],Loss: 0.02770886,pLoss:0.03661907
+valid time is 14:34:50 
+Loaded 400 valid data.
+V_aver_loss:0.02645282490295358,V_aver_ploss:0.02997367409290746
+PSNR:27.398713092010105
+SSIM:0.9151380622066201
+Loaded 800 train data.
+Epoch [13/100],Loss: 0.02705136,pLoss:0.03339428
+valid time is 14:44:08 
+Loaded 400 valid data.
+V_aver_loss:0.026018342243041843,V_aver_ploss:0.029524148165946826
+PSNR:27.74763199408146
+SSIM:0.9162181743190667
+Loaded 800 train data.
+Epoch [14/100],Loss: 0.02711000,pLoss:0.02929881
+valid time is 14:53:24 
+Loaded 400 valid data.
+V_aver_loss:0.025328341169515625,V_aver_ploss:0.028845258319051936
+PSNR:27.712449273308884
+SSIM:0.9168005481965232
+Loaded 800 train data.
+Epoch [15/100],Loss: 0.02726319,pLoss:0.02494298
+valid time is 15:03:35 
+Loaded 400 valid data.
+V_aver_loss:0.0262311690649949,V_aver_ploss:0.029740079501643778
+PSNR:27.480487619961536
+SSIM:0.916088081682141
+Loaded 800 train data.
+Epoch [16/100],Loss: 0.02752008,pLoss:0.02889471
+valid time is 15:13:49 
+Loaded 400 valid data.
+V_aver_loss:0.025727692553773523,V_aver_ploss:0.02926126020029187
+PSNR:27.717039105123288
+SSIM:0.916324755771142
+Loaded 800 train data.
+Epoch [17/100],Loss: 0.02665888,pLoss:0.02421854
+valid time is 15:24:15 
+Loaded 400 valid data.
+V_aver_loss:0.025810958475340158,V_aver_ploss:0.029319199963938444
+PSNR:27.672762878625253
+SSIM:0.917158159068913
+Loaded 800 train data.
+Epoch [18/100],Loss: 0.02662207,pLoss:0.02840685
+valid time is 15:34:34 
+Loaded 400 valid data.
+V_aver_loss:0.025148361461469905,V_aver_ploss:0.028780820632819087
+PSNR:27.761043809042437
+SSIM:0.9167396048889593
+Loaded 800 train data.
+Epoch [19/100],Loss: 0.02648969,pLoss:0.02573259
+valid time is 15:45:03 
+Loaded 400 valid data.
+V_aver_loss:0.024653436865191905,V_aver_ploss:0.02822564037516713
+PSNR:27.890155422538918
+SSIM:0.9175055949397676
+Loaded 800 train data.
+Epoch [20/100],Loss: 0.02592018,pLoss:0.01823656
+valid time is 15:55:20 
+Loaded 400 valid data.
+V_aver_loss:0.02480160672799684,V_aver_ploss:0.028285165140405296
+PSNR:28.031232069324986
+SSIM:0.9176661638391705
+Loaded 800 train data.
+Epoch [21/100],Loss: 0.02612489,pLoss:0.02789645
+valid time is 16:05:37 
+Loaded 400 valid data.
+V_aver_loss:0.024656468363245948,V_aver_ploss:0.028154248989885673
+PSNR:27.93601681732973
+SSIM:0.9181268812154381
+Loaded 800 train data.
+Epoch [22/100],Loss: 0.02599220,pLoss:0.02897140
+valid time is 16:16:11 
+Loaded 400 valid data.
+V_aver_loss:0.02465394660946913,V_aver_ploss:0.02814772538258694
+PSNR:28.08180957998062
+SSIM:0.9188056243560441
+Loaded 800 train data.
+Epoch [23/100],Loss: 0.02609190,pLoss:0.04036714
+valid time is 16:25:34 
+Loaded 400 valid data.
+V_aver_loss:0.030823990212520583,V_aver_ploss:0.0343128401436843
+PSNR:26.65309828425138
+SSIM:0.9132904880265018
+Loaded 800 train data.
+Epoch [24/100],Loss: 0.02592288,pLoss:0.03501644
+valid time is 16:34:49 
+Loaded 400 valid data.
+V_aver_loss:0.027030267852824183,V_aver_ploss:0.030545927822822706
+PSNR:27.071745688811927
+SSIM:0.9161362036341444
+Loaded 800 train data.
+Epoch [25/100],Loss: 0.02563911,pLoss:0.03055070
+valid time is 16:43:57 
+Loaded 400 valid data.
+V_aver_loss:0.02419019987224601,V_aver_ploss:0.027680858841631562
+PSNR:28.258925314059272
+SSIM:0.9186396572196894
+Loaded 800 train data.
+Epoch [26/100],Loss: 0.02549893,pLoss:0.02836637
+valid time is 16:53:14 
+Loaded 400 valid data.
+V_aver_loss:0.025037201421801002,V_aver_ploss:0.02852534913807176
+PSNR:28.12089161886157
+SSIM:0.9174655962782726
+Loaded 800 train data.
+Epoch [27/100],Loss: 0.02544110,pLoss:0.02271033
+valid time is 17:02:34 
+Loaded 400 valid data.
+V_aver_loss:0.023576273430371657,V_aver_ploss:0.02707262130570598
+PSNR:28.260600392451014
+SSIM:0.9187847623665709
+Loaded 800 train data.
+Epoch [28/100],Loss: 0.02527033,pLoss:0.02693907
+valid time is 17:11:52 
+Loaded 400 valid data.
+V_aver_loss:0.026903120061615483,V_aver_ploss:0.030394775222521275
+PSNR:27.265681087837855
+SSIM:0.9165727705303157
+Loaded 800 train data.
+Epoch [29/100],Loss: 0.02512535,pLoss:0.02611496
+valid time is 17:21:20 
+Loaded 400 valid data.
+V_aver_loss:0.02527043877984397,V_aver_ploss:0.028769274628721177
+PSNR:27.91506446434139
+SSIM:0.9174340333052253
+lr is set to 1e-05
+lr is set to 1e-06
+Loaded 800 train data.
+Epoch [30/100],Loss: 0.02437940,pLoss:0.02561215
+valid time is 17:30:38 
+Loaded 400 valid data.
+V_aver_loss:0.023740247210953386,V_aver_ploss:0.027242182492045686
+PSNR:28.23347309795697
+SSIM:0.9189751850255596
+Loaded 800 train data.
+Epoch [31/100],Loss: 0.02440717,pLoss:0.03098479
+valid time is 17:40:54 
+Loaded 400 valid data.
+V_aver_loss:0.023576586197596044,V_aver_ploss:0.02707917954423465
+PSNR:28.347360158235656
+SSIM:0.918672749055962
+Loaded 800 train data.
+Epoch [32/100],Loss: 0.02445705,pLoss:0.03124409
+valid time is 17:51:10 
+Loaded 400 valid data.
+V_aver_loss:0.024099319711094722,V_aver_ploss:0.027602797920117154
+PSNR:28.251631236096845
+SSIM:0.9177906579025771
+Loaded 800 train data.
+Epoch [33/100],Loss: 0.02433616,pLoss:0.02670787
+valid time is 18:01:30 
+Loaded 400 valid data.
+V_aver_loss:0.02406040837522596,V_aver_ploss:0.02755953362910077
+PSNR:28.080617865319308
+SSIM:0.9183251073886549
+Loaded 800 train data.
+Epoch [34/100],Loss: 0.02440040,pLoss:0.02436894
+valid time is 18:11:56 
+Loaded 400 valid data.
+V_aver_loss:0.024128670709906146,V_aver_ploss:0.027620216404320674
+PSNR:28.169798032931748
+SSIM:0.9189335951225384
+Loaded 800 train data.
+Epoch [35/100],Loss: 0.02450315,pLoss:0.03235600
+valid time is 18:22:10 
+Loaded 400 valid data.
+V_aver_loss:0.023892929893918335,V_aver_ploss:0.027392708469415085
+PSNR:28.442451647646923
+SSIM:0.9190830941785532
+Loaded 800 train data.
+Epoch [36/100],Loss: 0.02425137,pLoss:0.02434263
+valid time is 18:32:26 
+Loaded 400 valid data.
+V_aver_loss:0.023579033486312254,V_aver_ploss:0.027067965868627652
+PSNR:28.213214281928273
+SSIM:0.9189477818365257
+Loaded 800 train data.
+Epoch [37/100],Loss: 0.02436835,pLoss:0.03080788
+valid time is 18:42:43 
+Loaded 400 valid data.
+V_aver_loss:0.023626588073093445,V_aver_ploss:0.02711619041976519
+PSNR:28.368491924746735
+SSIM:0.9195605856911764
+Loaded 800 train data.
+Epoch [38/100],Loss: 0.02429294,pLoss:0.02965057
+valid time is 18:53:02 
+Loaded 400 valid data.
+V_aver_loss:0.023669671543175355,V_aver_ploss:0.027159648236120118
+PSNR:28.352730659015762
+SSIM:0.919189454882003
+Loaded 800 train data.
+Epoch [39/100],Loss: 0.02430986,pLoss:0.03701644
+valid time is 19:02:08 
+Loaded 400 valid data.
+V_aver_loss:0.024232108594151213,V_aver_ploss:0.027725805399240924
+PSNR:28.223051413127774
+SSIM:0.9187248137090986
+Loaded 800 train data.
+Epoch [40/100],Loss: 0.02448208,pLoss:0.03171853
+valid time is 19:11:18 
+Loaded 400 valid data.
+V_aver_loss:0.024091743733733892,V_aver_ploss:0.027577914922730998
+PSNR:28.202301512349507
+SSIM:0.9186084106257673
+Loaded 800 train data.
+Epoch [41/100],Loss: 0.02429457,pLoss:0.03223780
+valid time is 19:20:41 
+Loaded 400 valid data.
+V_aver_loss:0.023427073622588068,V_aver_ploss:0.02692370040109381
+PSNR:28.329958813262177
+SSIM:0.9192053775099817
+Loaded 800 train data.
+Epoch [42/100],Loss: 0.02447050,pLoss:0.02759718
+valid time is 19:30:20 
+Loaded 400 valid data.
+V_aver_loss:0.023879404711769893,V_aver_ploss:0.027375020502367987
+PSNR:28.286012076891925
+SSIM:0.9178490569110156
+Loaded 800 train data.
+Epoch [43/100],Loss: 0.02454900,pLoss:0.02579576
+valid time is 19:39:42 
+Loaded 400 valid data.
+V_aver_loss:0.023280954842921347,V_aver_ploss:0.026770171988755465
+PSNR:28.281213937100986
+SSIM:0.919224006126881
+Loaded 800 train data.
+Epoch [44/100],Loss: 0.02446751,pLoss:0.02263966
+valid time is 19:49:02 
+Loaded 400 valid data.
+V_aver_loss:0.02384993792278692,V_aver_ploss:0.02733343668282032
+PSNR:28.29085287313874
+SSIM:0.9190858250573671
+Loaded 800 train data.
+Epoch [45/100],Loss: 0.02440710,pLoss:0.02956475
+valid time is 19:58:24 
+Loaded 400 valid data.
+V_aver_loss:0.02378208893467672,V_aver_ploss:0.027269462393596768
+PSNR:28.38693606536172
+SSIM:0.919556275300032
+Loaded 800 train data.
+Epoch [46/100],Loss: 0.02436587,pLoss:0.03498011
+valid time is 20:07:39 
+Loaded 400 valid data.
+V_aver_loss:0.02360987370600924,V_aver_ploss:0.027093796326080336
+PSNR:28.39456333105772
+SSIM:0.9197085073416331
+Loaded 800 train data.
+Epoch [47/100],Loss: 0.02437003,pLoss:0.02859453
+valid time is 20:17:45 
+Loaded 400 valid data.
+V_aver_loss:0.024071185936918482,V_aver_ploss:0.027566891693277286
+PSNR:28.22536901183446
+SSIM:0.9189750619038862
+Loaded 800 train data.
+Epoch [48/100],Loss: 0.02408025,pLoss:0.03376976
+valid time is 20:27:51 
+Loaded 400 valid data.
+V_aver_loss:0.023435897309100256,V_aver_ploss:0.02692937518353574
+PSNR:28.4145124017759
+SSIM:0.9193538846072742
+Loaded 800 train data.
+Epoch [49/100],Loss: 0.02422054,pLoss:0.02933029
+valid time is 20:38:10 
+Loaded 400 valid data.
+V_aver_loss:0.02350694704451598,V_aver_ploss:0.02700030324049294
+PSNR:28.42457640891799
+SSIM:0.9194524793446183
+Loaded 800 train data.
+Epoch [50/100],Loss: 0.02420675,pLoss:0.02244661
+valid time is 20:48:43 
+Loaded 400 valid data.
+V_aver_loss:0.023630484441528096,V_aver_ploss:0.027116351805161684
+PSNR:28.34404583017013
+SSIM:0.9193708814488807
+Loaded 800 train data.
+Epoch [51/100],Loss: 0.02409557,pLoss:0.03006050
+valid time is 20:59:02 
+Loaded 400 valid data.
+V_aver_loss:0.023722744148690255,V_aver_ploss:0.02720805717050098
+PSNR:28.399837923137778
+SSIM:0.91896896312406
+Loaded 800 train data.
+Epoch [52/100],Loss: 0.02431714,pLoss:0.04101555
+valid time is 21:09:32 
+Loaded 400 valid data.
+V_aver_loss:0.023493345440365375,V_aver_ploss:0.026982744147535414
+PSNR:28.57865226569685
+SSIM:0.9199535932878564
+Loaded 800 train data.
+Epoch [53/100],Loss: 0.02410890,pLoss:0.02484521
+valid time is 21:19:35 
+Loaded 400 valid data.
+V_aver_loss:0.023311462935525926,V_aver_ploss:0.02679908641031943
+PSNR:28.37031012454495
+SSIM:0.9186208085942287
+Loaded 800 train data.
+Epoch [54/100],Loss: 0.02410682,pLoss:0.02280745
+valid time is 21:29:53 
+Loaded 400 valid data.
+V_aver_loss:0.023673230950953437,V_aver_ploss:0.02716171251377091
+PSNR:28.35667109318579
+SSIM:0.9190612003739487
+Loaded 800 train data.
+Epoch [55/100],Loss: 0.02397650,pLoss:0.03226392
+valid time is 21:39:29 
+Loaded 400 valid data.
+V_aver_loss:0.023555922617670148,V_aver_ploss:0.027041080795461313
+PSNR:28.322082759406484
+SSIM:0.9190461083129778
+Loaded 800 train data.
+Epoch [56/100],Loss: 0.02427059,pLoss:0.03868340
+valid time is 21:48:57 
+Loaded 400 valid data.
+V_aver_loss:0.023729452640982345,V_aver_ploss:0.027212539068423212
+PSNR:28.33362797519566
+SSIM:0.9190290358024963
+Loaded 800 train data.
+Epoch [57/100],Loss: 0.02415440,pLoss:0.02880853
+valid time is 22:00:12 
+Loaded 400 valid data.
+V_aver_loss:0.02346389341633767,V_aver_ploss:0.026946774924872442
+PSNR:28.28043890120633
+SSIM:0.9187159291155601
+Loaded 800 train data.
+Epoch [58/100],Loss: 0.02407392,pLoss:0.03091844
+valid time is 22:11:08 
+Loaded 400 valid data.
+V_aver_loss:0.023950294009409845,V_aver_ploss:0.02743781142984517
+PSNR:28.16889238233029
+SSIM:0.9185640376945401
+Loaded 800 train data.
+Epoch [59/100],Loss: 0.02419262,pLoss:0.02892444
+valid time is 22:21:50 
+Loaded 400 valid data.
+V_aver_loss:0.024323351850034668,V_aver_ploss:0.027812516854610295
+PSNR:28.270224783200007
+SSIM:0.9188135349504232
+lr is set to 1e-06
+Loaded 800 train data.
+Epoch [60/100],Loss: 0.02417406,pLoss:0.02641248
+valid time is 22:32:06 
+Loaded 400 valid data.
+V_aver_loss:0.023572600131155922,V_aver_ploss:0.027055881768465042
+PSNR:28.34084016426355
+SSIM:0.9195482139058396
+Loaded 800 train data.
+Epoch [61/100],Loss: 0.02403088,pLoss:0.03336256
+valid time is 22:42:21 
+Loaded 400 valid data.
+V_aver_loss:0.023622576160123573,V_aver_ploss:0.02711108510149643
+PSNR:28.366411921948465
+SSIM:0.919224008934676
+Loaded 800 train data.
+Epoch [62/100],Loss: 0.02414439,pLoss:0.02393214
+valid time is 22:52:35 
+Loaded 400 valid data.
+V_aver_loss:0.02336943352711387,V_aver_ploss:0.026854934906587004
+PSNR:28.482748845144148
+SSIM:0.9199790425136279
+Loaded 800 train data.
+Epoch [63/100],Loss: 0.02400234,pLoss:0.03486712
+valid time is 23:02:25 
+Loaded 400 valid data.
+V_aver_loss:0.023313110223971308,V_aver_ploss:0.026801422968273984
+PSNR:28.441116507793314
+SSIM:0.9198653168461245
+Loaded 800 train data.
+Epoch [64/100],Loss: 0.02402501,pLoss:0.02975401
+valid time is 23:12:14 
+Loaded 400 valid data.
+V_aver_loss:0.023385453303344548,V_aver_ploss:0.02687066983547993
+PSNR:28.370028485661383
+SSIM:0.9191869660776362
+Loaded 800 train data.
+Epoch [65/100],Loss: 0.02415454,pLoss:0.02635142
+valid time is 23:21:45 
+Loaded 400 valid data.
+V_aver_loss:0.02348345686448738,V_aver_ploss:0.02696840911288746
+PSNR:28.29993173736499
+SSIM:0.9189537359206618
+Loaded 800 train data.
+Epoch [66/100],Loss: 0.02393924,pLoss:0.02561500
+valid time is 23:31:08 
+Loaded 400 valid data.
+V_aver_loss:0.02343146774917841,V_aver_ploss:0.026909811521181836
+PSNR:28.53798170370415
+SSIM:0.9200645003099606
+Loaded 800 train data.
+Epoch [67/100],Loss: 0.02437209,pLoss:0.02779208
+valid time is 23:40:36 
+Loaded 400 valid data.
+V_aver_loss:0.023635722427861765,V_aver_ploss:0.027116785109974444
+PSNR:28.34304272246458
+SSIM:0.919388248961775
+Loaded 800 train data.
+Epoch [68/100],Loss: 0.02418456,pLoss:0.02553063
+valid time is 23:50:03 
+Loaded 400 valid data.
+V_aver_loss:0.023658322647679596,V_aver_ploss:0.02714079411001876
+PSNR:28.384296342268307
+SSIM:0.9194913834193044
+Loaded 800 train data.
+Epoch [69/100],Loss: 0.02407575,pLoss:0.02430771
+valid time is 23:59:27 
+Loaded 400 valid data.
+V_aver_loss:0.023472073921002447,V_aver_ploss:0.026952938564354555
+PSNR:28.371024523171624
+SSIM:0.9201012952684104
+Loaded 800 train data.
+Epoch [70/100],Loss: 0.02411967,pLoss:0.02400375
+valid time is 00:08:50 
+Loaded 400 valid data.
+V_aver_loss:0.023294902126071975,V_aver_ploss:0.026783896578708662
+PSNR:28.399599323234014
+SSIM:0.9193665150929746
+Loaded 800 train data.
+Epoch [71/100],Loss: 0.02387380,pLoss:0.02680263
+valid time is 00:18:19 
+Loaded 400 valid data.
+V_aver_loss:0.023586570840561764,V_aver_ploss:0.02706943850032985
+PSNR:28.401899866066866
+SSIM:0.919443221426932
+Loaded 800 train data.
+Epoch [72/100],Loss: 0.02414973,pLoss:0.02980303
+valid time is 00:27:43 
+Loaded 400 valid data.
+V_aver_loss:0.02348334517562762,V_aver_ploss:0.026969265292864295
+PSNR:28.42714483994883
+SSIM:0.9196163545415659
+Loaded 800 train data.
+Epoch [73/100],Loss: 0.02419011,pLoss:0.02322713
+valid time is 00:37:11 
+Loaded 400 valid data.
+V_aver_loss:0.023341981518315152,V_aver_ploss:0.026826184989186003
+PSNR:28.42772165465614
+SSIM:0.9196236531569405
+Loaded 800 train data.
+Epoch [74/100],Loss: 0.02402440,pLoss:0.02291711
+valid time is 00:46:31 
+Loaded 400 valid data.
+V_aver_loss:0.02369737900327891,V_aver_ploss:0.027181657277978957
+PSNR:28.286203063106054
+SSIM:0.9188878252982706
+Loaded 800 train data.
+Epoch [75/100],Loss: 0.02393425,pLoss:0.03063084
+valid time is 00:55:58 
+Loaded 400 valid data.
+V_aver_loss:0.023610727364430203,V_aver_ploss:0.027093197007197888
+PSNR:28.24455716710431
+SSIM:0.918205037514022
+Loaded 800 train data.
+Epoch [76/100],Loss: 0.02426670,pLoss:0.03986312
+valid time is 01:05:24 
+Loaded 400 valid data.
+V_aver_loss:0.02338626412441954,V_aver_ploss:0.02686954920180142
+PSNR:28.31714063702929
+SSIM:0.9190831118685316
+Loaded 800 train data.
+Epoch [77/100],Loss: 0.02399311,pLoss:0.03421311
+valid time is 01:14:49 
+Loaded 400 valid data.
+V_aver_loss:0.023643720742547884,V_aver_ploss:0.027130374934058635
+PSNR:28.30616253966695
+SSIM:0.9195212682401013
+Loaded 800 train data.
+Epoch [78/100],Loss: 0.02408740,pLoss:0.02973598
+valid time is 01:24:07 
+Loaded 400 valid data.
+V_aver_loss:0.023422459526918828,V_aver_ploss:0.02690577786997892
+PSNR:28.390096602054218
+SSIM:0.9193327661892656
+Loaded 800 train data.
+Epoch [79/100],Loss: 0.02424405,pLoss:0.02420468
+valid time is 01:33:29 
+Loaded 400 valid data.
+V_aver_loss:0.023625177681678905,V_aver_ploss:0.027107047800673172
+PSNR:28.379431180827837
+SSIM:0.9192701029497021
+Loaded 800 train data.
+Epoch [80/100],Loss: 0.02404996,pLoss:0.03024325
+valid time is 01:43:01 
+Loaded 400 valid data.
+V_aver_loss:0.023327010557986794,V_aver_ploss:0.02680772355175577
+PSNR:28.47117061362538
+SSIM:0.9206063332664137
+Loaded 800 train data.
+Epoch [81/100],Loss: 0.02390170,pLoss:0.02655074
+valid time is 01:52:34 
+Loaded 400 valid data.
+V_aver_loss:0.023278156818123535,V_aver_ploss:0.026766128137242048
+PSNR:28.41244892884085
+SSIM:0.9194036045831024
+Loaded 800 train data.
+Epoch [82/100],Loss: 0.02401299,pLoss:0.03086377
+valid time is 02:02:18 
+Loaded 400 valid data.
+V_aver_loss:0.02331880850950256,V_aver_ploss:0.0268160928087309
+PSNR:28.389744009558257
+SSIM:0.9191447916340357
+Loaded 800 train data.
+Epoch [83/100],Loss: 0.02413891,pLoss:0.02422898
+valid time is 02:11:41 
+Loaded 400 valid data.
+V_aver_loss:0.023370369143085556,V_aver_ploss:0.026868151634698734
+PSNR:28.466385822890174
+SSIM:0.9194561490924849
+Loaded 800 train data.
+Epoch [84/100],Loss: 0.02392322,pLoss:0.02627603
+valid time is 02:21:15 
+Loaded 400 valid data.
+V_aver_loss:0.023710740618407725,V_aver_ploss:0.027198642131406815
+PSNR:28.330427123808782
+SSIM:0.9187874870948399
+Loaded 800 train data.
+Epoch [85/100],Loss: 0.02401668,pLoss:0.02562192
+valid time is 02:30:36 
+Loaded 400 valid data.
+V_aver_loss:0.023596097679110244,V_aver_ploss:0.02709320906084031
+PSNR:28.35769293878947
+SSIM:0.9198806248278424
+Loaded 800 train data.
+Epoch [86/100],Loss: 0.02392325,pLoss:0.03136526
+valid time is 02:40:04 
+Loaded 400 valid data.
+V_aver_loss:0.02353246635408141,V_aver_ploss:0.02703836849075742
+PSNR:28.420926460542905
+SSIM:0.9196396563016985
+Loaded 800 train data.
+Epoch [87/100],Loss: 0.02422013,pLoss:0.02975529
+valid time is 02:49:37 
+Loaded 400 valid data.
+V_aver_loss:0.023363211674150078,V_aver_ploss:0.026871217468287797
+PSNR:28.4517347956807
+SSIM:0.9193080828016769
+Loaded 800 train data.
+Epoch [88/100],Loss: 0.02415271,pLoss:0.02995491
+valid time is 02:59:01 
+Loaded 400 valid data.
+V_aver_loss:0.023656690726056695,V_aver_ploss:0.02715918022207916
+PSNR:28.320891357460233
+SSIM:0.9189164966912119
+Loaded 800 train data.
+Epoch [89/100],Loss: 0.02407193,pLoss:0.02996518
+valid time is 03:08:54 
+Loaded 400 valid data.
+V_aver_loss:0.023857524992199616,V_aver_ploss:0.027356561087071896
+PSNR:28.398616245798177
+SSIM:0.9190661198342849
+Loaded 800 train data.
+Epoch [90/100],Loss: 0.02398767,pLoss:0.02570199
+valid time is 03:18:58 
+Loaded 400 valid data.
+V_aver_loss:0.023519220603629945,V_aver_ploss:0.027018943153088913
+PSNR:28.431681282820104
+SSIM:0.9195452747303979
+Loaded 800 train data.
+Epoch [91/100],Loss: 0.02404126,pLoss:0.02844503
+valid time is 03:29:19 
+Loaded 400 valid data.
+V_aver_loss:0.02348999905749224,V_aver_ploss:0.02698381298338063
+PSNR:28.43857159054824
+SSIM:0.9189822946363191
+Loaded 800 train data.
+Epoch [92/100],Loss: 0.02417095,pLoss:0.03121288
+valid time is 03:39:44 
+Loaded 400 valid data.
+V_aver_loss:0.0237131944403518,V_aver_ploss:0.02720765127101913
+PSNR:28.381229669823064
+SSIM:0.9199186627108137
+Loaded 800 train data.
+Epoch [93/100],Loss: 0.02414333,pLoss:0.02860792
+valid time is 03:50:12 
+Loaded 400 valid data.
+V_aver_loss:0.023097553525585682,V_aver_ploss:0.026590642030350865
+PSNR:28.465576862594418
+SSIM:0.9200532144717983
+Loaded 800 train data.
+Epoch [94/100],Loss: 0.02414150,pLoss:0.02930657
+valid time is 04:00:50 
+Loaded 400 valid data.
+V_aver_loss:0.02327365973731503,V_aver_ploss:0.026764222079655155
+PSNR:28.53961824577584
+SSIM:0.9201602654096361
+Loaded 800 train data.
+Epoch [95/100],Loss: 0.02408765,pLoss:0.02217473
+valid time is 04:11:47 
+Loaded 400 valid data.
+V_aver_loss:0.02324296431033872,V_aver_ploss:0.02674241821630858
+PSNR:28.303057312391736
+SSIM:0.9184230678104871
+Loaded 800 train data.
+Epoch [96/100],Loss: 0.02409601,pLoss:0.02484799
+valid time is 04:22:55 
+Loaded 400 valid data.
+V_aver_loss:0.023508223473327233,V_aver_ploss:0.026997602347983048
+PSNR:28.456889587888938
+SSIM:0.9200347523179032
+Loaded 800 train data.
+Epoch [97/100],Loss: 0.02395003,pLoss:0.03004995
+valid time is 04:33:59 
+Loaded 400 valid data.
+V_aver_loss:0.023401050809770823,V_aver_ploss:0.026890811132034287
+PSNR:28.532345106143968
+SSIM:0.920222219349224
+Loaded 800 train data.
+Epoch [98/100],Loss: 0.02405815,pLoss:0.03574652
+valid time is 04:45:23 
+Loaded 400 valid data.
+V_aver_loss:0.02362986312014982,V_aver_ploss:0.027119362918892876
+PSNR:28.333567270858374
+SSIM:0.9186598545141755
+Loaded 800 train data.
+Epoch [99/100],Loss: 0.02391659,pLoss:0.03804692
+valid time is 04:56:20 
+Loaded 400 valid data.
+V_aver_loss:0.023229350824840365,V_aver_ploss:0.02671870358171873
+PSNR:28.45782213322971
+SSIM:0.9196882761294988

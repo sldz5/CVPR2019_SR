@@ -1,0 +1,48 @@
+weijian@ubuntu:~/result/3$ python3 SR.py -a test
+WARNING:root:Setting up a new session...
+start time is 2019-05-06 22:59:21.124671 
+Invoke test with args Namespace(action='test', batch_size=5, beta1=0.9, beta2=0.999, cuda=False, epoch=2, lr=0.0001, lrD=1e-05, margin=1.0, n_colors=3, nb_worker=4, randaug=False, upscale_factor=2, vbatch_size=5, weight_decay=1e-08)
+test time is 22:59:21 
+Loaded 19 test data.
+one image time is : 5s 
+cam1_04-psnr:28.89056964894875,ssim:0.8756146601433819
+one image time is : 4s 
+cam1_010-psnr:29.90247930900488,ssim:0.8840395745589075
+one image time is : 5s 
+cam2_08-psnr:28.62846142885653,ssim:0.903365715379984
+one image time is : 4s 
+cam2_02-psnr:28.61096372579656,ssim:0.8990367773114643
+one image time is : 4s 
+cam1_09-psnr:29.870651940267297,ssim:0.9318706122474385
+one image time is : 5s 
+cam1_06-psnr:23.36735338093259,ssim:0.7301696724681577
+one image time is : 6s 
+cam2_04-psnr:24.077613716391298,ssim:0.8367593874809703
+one image time is : 4s 
+cam2_01-psnr:25.63627026427198,ssim:0.7664733552206622
+one image time is : 9s 
+cam2_03-psnr:27.358350847900738,ssim:0.8758225691069303
+one image time is : 2s 
+cam1_02-psnr:26.081640306180045,ssim:0.863029158153815
+one image time is : 10s 
+cam1_08-psnr:27.43445625469677,ssim:0.8241474895562156
+one image time is : 6s 
+cam1_03-psnr:27.16600149126899,ssim:0.8530690405298818
+one image time is : 11s 
+cam2_06-psnr:27.416488361093506,ssim:0.8682695951907006
+one image time is : 6s 
+cam1_05-psnr:29.160463149007995,ssim:0.9248971409411008
+one image time is : 4s 
+cam1_07-psnr:27.00345636947073,ssim:0.8448896291015712
+one image time is : 9s 
+cam2_07-psnr:15.694813026496305,ssim:0.8732745929568276
+one image time is : 3s 
+cam2_010-psnr:23.814616631657994,ssim:0.738306860735667
+one image time is : 4s 
+cam2_09-psnr:29.239963216737678,ssim:0.9072502190635214
+one image time is : 3s 
+cam1_01-psnr:26.32970147594227,ssim:0.7826640775141813
+aver_PSNR:26.614963923416997
+aver_SSIM:0.8517342172453357
+Finish time is 2019-05-06 23:01:58.320643 
+All time is 0:02:37.195972 
